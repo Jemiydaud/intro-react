@@ -73,7 +73,7 @@ addStudent(studentName) {
         <List
           placeholder="Add Student..."
           currList={this.state.students}
-          addFunction={this.addstudent}
+          addFunction={this.addStudent}
           title="Student Roster"
         />
       );
