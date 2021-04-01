@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line
 import Table from "./Table";
 import List from "./List";
 
@@ -67,16 +68,16 @@ addStudent(studentName) {
 
     /* Change below to render students*/
 
-    /*if (this.state.buttonClicked === "students") {
+    if (this.state.buttonClicked === "students") {
       tabChoice = (
         <List
-          placeholder="Add Assignment..."
-          currList={this.state.assignments}
-          addFunction={this.addAssignment}
+          placeholder="Add Student..."
+          currList={this.state.students}
+          addFunction={this.addstudent}
           title="Student Roster"
         />
       );
-    }*/
+    }
 
     /* Uncomment lines below to render grades*/
     /*if (this.state.buttonClicked === "grades") {
